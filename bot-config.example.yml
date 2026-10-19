@@ -1,0 +1,18 @@
+client:
+  type: qbittorrent
+  host: http://qbittorrent:8082
+  user: admin
+  password: YOUR_QBIT_PASSWORD
+
+telegram:
+  bot_token: YOUR_TELEGRAM_BOT_TOKEN
+
+users:
+  - user_id: 12345678        # TELEGRAM ID 
+    role: administrator      # role
+    notify: true
+  - user_id: 123456789       # TELEGRAM ID 
+    role: manager            # role
+    notify: true
+redis:
+  url: null

@@ -1,0 +1,18 @@
+# Секреты и конфиги
+bot-config.yml
+.env
+nginx/.htpasswd
+qbittorrent-config/
+
+
+# Временные файлы и данные
+queue/
+queue-sorted/
+apns-config/
+
+# Системный мусор
+__pycache__/
+*.pyc
+.DS_Store
+*.bak*
+.env
